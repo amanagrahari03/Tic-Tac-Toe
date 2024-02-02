@@ -1,0 +1,19 @@
+.board-container{
+  margin: auto;
+  width: 50%;
+  height: same-as-width;
+  padding: 10px;
+}
+.board-row{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.square{
+  border: 2px solid green;
+  height: 100px;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
